@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="fix_width">
+    <div class="side-2">
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=210264615849809&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));</script>
+      <div class="fb-like-box" data-href="https://www.facebook.com/JDAssessoriaFlorestalLTDA" data-width="550px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+    </div>
+    <div class="side">
+      <div class="title">Contatos</div>
+      Comercial: <span>{{site.telefone_fixo}}</span><br>
+      Jurandi: <span>{{site.celular_jurandi}}</span><br>
+      Ediane: <span>{{site.celular_ediane}}</span><br> <br>
+      email: <span><a href="mailto:{{site.email_jurandi}}">{{site.email_jurandi}}</a></span><br>
+      email: <span><a href="mailto:{{site.email_ediane}}">{{site.email_ediane}}</a></span><br>
+      <hr>
+      <a href="{{site.facebook_link}}" target="_blank"><img class="social" src="/imgs/facebook.png"></a>
+    </div>
+    <i></i>
+  </div>
+  <div class="extended">
+    <div class="fix_width">
+      <div id="copyright">Copyright 2015 - invent.to</div>
+        <div class="menu">
+          <ul class="sf-menu">
+            {% include itens_menu.html %}
+          </ul>
+        </div>
+    </div>
+  </div>
+</div>

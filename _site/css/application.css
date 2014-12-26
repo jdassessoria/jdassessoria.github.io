@@ -1,0 +1,485 @@
+* {
+  font: 15px "Open Sans",Helvetica,Verdana,Arial;
+  color: black
+}
+strong,b,h1,h2,h3 {
+  font-weight: bold
+}
+h2 {
+  font: 24px Verdana,Arial;
+  color: #03a319;
+  margin-top: 10px
+}
+body {
+  background-color: #e8e8e8;
+  margin: 0 0 100px
+}
+#head {
+  width: 100%;
+  top: 0;
+  box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  background-color: #fff;
+  position: fixed;
+  height: 85px;
+  border-bottom: 2px solid #fff;
+  z-index: 100
+}
+.fix_width {
+  margin: 0 auto;
+  max-width: 940px
+}
+#copyright {
+  float: left;
+  margin-top: 8px
+}
+.extended .menu {
+  margin-top: -4px;
+  margin-bottom: -2px
+}
+.inventto {
+  float: left;
+  position: left;
+  color: #03a319;
+  font: 51px Verdana,Arial;
+  padding: 5px 0;
+  width: 85px;
+  transition: transform 1s ease;
+  -webkit-transition: transform 1s ease;
+  -moz-transition: transform 1s ease;
+  -o-transition: transform 1s ease;
+  transform: rotate(0deg) scale(1) skew(0deg) translate(5px);
+  -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(5px);
+  -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(5px);
+  -o-transform: rotate(0deg) scale(1) skew(0deg) translate(5px);
+  -transform: rotate(0deg) scale(1) skew(0deg) translate(5px)
+}
+.inventto a {
+  font: 51px Verdana,Arial;
+  text-decoration: none
+}
+#body {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px
+}
+#body.fix_width {
+  margin-top: 90px
+}
+section#body {
+  padding: 10px 20px
+}
+section#body>.inner>*,section#body>.inner>* li,section#body>.inner p,section#body>.inner>* strong {
+  color: black
+}
+.container {
+  background: #e8e8e8;
+  padding: 20px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+#body .container {
+  background: #e8e8e8;
+  border: none;
+}
+#body_content_title {
+  color: #13C339;
+  font: 24px Verdana,Arial;
+  text-transform: uppercase;
+  margin: 0
+}
+.extended {
+  box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  display: block;
+  margin: 20px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: white;
+  clear: both;
+  border-top: 2px solid #03a319;
+  border-bottom: 2px solid #03a319;
+  overflow: hidden
+}
+.extended .fix_width {
+  max-width: 900px
+}
+.right_info {
+  float: right;
+  width: 790px;
+  padding: 10px;
+}
+.left_info {
+  font: 15px Verdana,Arial;
+  background-color: #e8e8e8;
+  text-transform: uppercase;
+  padding: 41px 20px;
+  float: left;
+  margin: 0px 0px -20px -20px;
+}
+.side {
+  width: 33.33%;
+  float: left
+}
+.side-2 {
+  width: 66.66%;
+  float: left
+}
+.side * {
+  padding: 0 5px
+}
+.title {
+  text-transform: uppercase;
+  font: 18px Verdana,Arial;
+  color: #03a319 !important;
+  border-bottom: 1px solid #fff
+}
+.side span {
+  color: #03a319
+}
+.side a {
+  color: #03a319;
+  text-decoration: none
+}
+.side span a: hover {
+  text-decoration: underline
+}
+.container .title {
+  color: white
+}
+i {
+  display: block;
+  clear: both
+}
+.projeto {
+  margin-top: 5px;
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  text-indent: 5px;
+  cursor: pointer
+}
+.descricao {
+  text-align: justify
+}
+.login {
+  position: absolute;
+  right: 0;
+  font-size: 13px
+}
+.login_img {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 24px;
+  position: right
+}
+.descricao_logo {
+  float: right;
+  position: absolute;
+  font: normal normal normal 13px/1.3em Helvetica,Arial,sans-serif;
+  Vertical-align: baseline;
+  margin-top: 40px;
+  text-transform: uppercase
+}
+.ui-accordion .ui-accordion-header {
+  background: transparent
+}
+.ui-accordion .ui-accordion-content-active {
+  color: white;
+  padding: 0 0 0 10px
+}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active {
+  border: none
+}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus {
+  border: none;
+  color: #3f0;
+  outline: 0
+}
+.ui-widget-content,.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default {
+  border: none
+}
+.ui-state-active .ui-icon,.ui-state-default .ui-icon {
+  background-image: url(/web/20140519064544/http://invent.to/assets/ui-icons_ffffff_256x240.png)
+}
+.social {
+  margin-right: 5px
+}
+.messages {
+  display: block;
+  position: absolute;
+  width: 100%
+}
+.messages .error-message,.messages .info-message,.messages .warning-message,.messages .notice-message {
+  margin: 0 auto 10px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  width: 400px;
+  padding: 5px;
+  border: 3px dashed #fff;
+  font-size: 16px
+}
+.messages .error-message {
+  background: url(/web/20140519064544/http://invent.to/assets/error.ico) no-repeat 40px #ff8585
+}
+.messages .info-message {
+  background: url(/web/20140519064544/http://invent.to/assets/info.ico) no-repeat 40px #add8e6
+}
+.messages .warning-message {
+  background: url(/web/20140519064544/http://invent.to/assets/warning.ico) no-repeat 40px orange
+}
+.messages .notice-message {
+  background: url(/web/20140519064544/http://invent.to/assets/notice.ico) no-repeat 40px #006400
+}
+.sf-menu {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  float: left;
+  margin-top: 13px;
+  padding-left: 9px;
+  margin-bottom: 1em;
+  z-index: 400
+}
+.sf-menu a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 1px 12px 0px 12px;
+  height: 15px;
+  text-decoration: none;
+  font-weight: normal;
+  float: left
+}
+.sf-menu li {
+  float: left;
+  position: relative;
+  font-family: Arial,Helvetica,sans-serif;
+  background-position: right 5px
+}
+.sf-menu li ul li ul {
+  left: 212px;
+  margin-top: 0px
+}
+.sf-menu li a:hover {
+  color: #089f00
+}
+ul.sf-menu li.backLava {
+  position: absolute;
+  z-index: 3;
+  background: url("/web/20140519064544/http://invent.to/assets/lavalamp.png") no-repeat;
+  background-position: center 0px;
+  padding: 0;
+  height: 16px;
+  margin-top: 15px
+}
+.menu {
+  float: right;
+  width: 560px;
+  margin-top: 45px
+}
+input,select,option,textarea {
+  color: #000
+}
+table.kanban th {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  background-color: #323232
+}
+table.kanban td,table.kanban th {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 2px 5px;
+  cursor: pointer
+}
+table.kanban {
+  border: 1px solid #000;
+  margin: 10px auto
+}
+.total_geral {
+  display: table;
+  padding: 2px 5px;
+  background-color: #323232;
+  margin: 0 auto
+}
+.ui-datepicker-calendar th span {
+  color: black
+}
+.scroll {
+  overflow-x: auto
+}
+.window_panel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 2000;
+  background: #eee;
+  color: #222;
+  font-family: Arial;
+  font-size: 16px;
+  text-decoration: none;
+  clear: both;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #aaa;
+  overflow: hidden
+}
+.window_panel .window_header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  overflow: hidden;
+  white-space: nowrap
+}
+.window_panel .window_header_normal {
+  height: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  text-align: left;
+  cursor: move
+}
+.window_panel .window_header_minimize {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 2px 5px;
+  line-height: 20px;
+  text-align: left
+}
+.window_panel .window_header_minimize_vertical {
+  padding: 7px 0px;
+  line-height: 13px;
+  text-align: center
+}
+.window_panel .window_header_maximize {
+  height: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  text-align: left;
+  cursor: default
+}
+.window_panel .window_frame {
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+.window_panel .window_footer {
+  width: 100%;
+  height: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #aaa;
+  overflow: hidden;
+  font-size: 12px
+}
+.window_panel .window_footer div {
+  margin-left: 5px
+}
+.window_panel .window_header .window_title_icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 4px;
+  top: 4px
+}
+.window_panel .window_header .window_title_text {
+  font-weight: bold;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  position: absolute;
+  left: 24px;
+  top: 3px;
+  margin-left: -20px
+}
+.window_panel .window_header .window_title_text_vertical {
+  left: 20px
+}
+.window_panel .window_header .window_title_text_vertical_with_icon {
+  left: 0;
+  top: 23px
+}
+.window_panel .window_header .window_function_bar {
+  height: 23px;
+  width: 72px;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  overflow: hidden;
+  white-space: nowrap
+}
+.window_panel .window_header .window_icon_button {
+  width: 16px;
+  height: 16px;
+  z-index: 3200;
+  cursor: pointer;
+  float: right;
+  margin-right: 4px;
+  margin-top: 2px
+}
+.window_panel .window_header .bookmarkImg {
+  background: url(/web/20140519064544/http://invent.to/img/buttons.gif) no-repeat;
+  background-position: 0;
+  top: 4px
+}
+.window_panel .window_header .minimizeImg {
+  background: url(/web/20140519064544/http://invent.to/img/buttons.gif) no-repeat;
+  background-position: -16px;
+  top: 4px
+}
+.window_panel .window_header .cascadeImg {
+  background: url(/web/20140519064544/http://invent.to/img/buttons.gif) no-repeat;
+  background-position: -32px;
+  top: 4px
+}
+.window_panel .window_header .maximizeImg {
+  background: url(/web/20140519064544/http://invent.to/img/buttons.gif) no-repeat;
+  background-position: -48px;
+  top: 4px
+}
+.window_panel .window_header .closeImg {
+  background: url(/web/20140519064544/http://invent.to/img/buttons.gif) no-repeat;
+  background-position: -64px;
+  top: 4px
+}
+.window_panel .frame_loading {
+  background: url("/web/20140519064544/http://invent.to/img/loading.gif") no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #777;
+  padding-left: 20px;
+  text-align: left;
+  text-decoration: none;
+  clear: both;
+  cursor: crosshair
+}
+#window_overlay {
+  background: black;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0
+}
+

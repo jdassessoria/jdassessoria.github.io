@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+<script type="text/javascript" src="index_files/disclaim-element.js"></script>
+<script type="text/javascript" src="index_files/graph-calc.js"></script>
+<script type="text/javascript" src="index_files/jquery.js"></script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+
+{% include header.html %}
+
+<div id="body" class="fix_width">
+  <div class="slide_show"></div>
+  <div class="container">
+    <section class="no_side_body no_body_content_left no_body_content_right" id="body_content"><h1 id="body_content_title">Sobre</h1>
+    <section id="body"><div class="inner">
+    <style>
+      #gallery {
+        background: url("/web/20140625054956im_/http://invent.to/assets/fundo_galeria.png") no-repeat scroll 0 0 transparent;
+        height: 344px;
+        margin: -70px -60px 0 -40px;
+        padding: 1px 20px;
+      }
+      #body_content_title {
+      display:none;
+      }
+      #gallery img {
+      float:right;
+      margin-left: -100%;
+      opacity: 1;
+         transition: opacity .5s;
+         -moz-transition: opacity .5s;
+         -webkit-transition: opacity .5s;
+      }
+      #gallery img.hidded {
+      opacity: 0;
+      }
+      #gallery .content {
+        margin-top: 30px;
+        font-size: 20px;
+        width: 370px
+      }
+    </style>
+
+    <h2>{{page.title}}</h2>
+        {{ content }}
+
+    </section></section>
+  </div>
+</div>
+
+{% include footer.html %}
+
+</body></html>
