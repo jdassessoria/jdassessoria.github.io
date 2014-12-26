@@ -19,4 +19,4 @@ url: "http://jd.com.br" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-github: git@github.com:edianedaleffe/site_jd.git
+github: git@github.com:jdassessoria/jdassessoria.github.io.git
